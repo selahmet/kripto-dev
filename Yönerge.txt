@@ -1,0 +1,180 @@
+﻿
+https://github.com/selahmet/kripto-dev
+
+PROGRAMLAMA 2 DERSİ
+Python OOP Tabanlı Dönem Projesi Yönergesi
+Bu proje kapsamında öğrencilerden, Python programlama dili ile nesne yönelimli programlama mantığını kullanarak orta düzey bir uygulama geliştirmeleri beklenmektedir. Projeler arayüzsüz olacaktır. Yani Tkinter, web arayüzü veya mobil arayüz kullanılmayacaktır. Uygulamalar terminal/menü tabanlı çalışacaktır.
+Projeler Google Colab, VS Code, PyCharm veya Anaconda ortamlarında geliştirilebilir. Hazırlanan proje daha sonra GitHub hesabına yüklenmeli ve sınıfta kısa bir sunumla tanıtılmalıdır.
+1. Proje Konuları
+Kripto Para Portföy ve İşlem Takip Sistemi
+2. Tüm Projelerde Beklenen Python Yapıları
+Her projede aşağıdaki yapıların mümkün olduğunca kullanılması beklenmektedir:
+Zorunlu Yapılar
+* Class ve object kullanımı
+* En az 4-5 farklı sınıf
+* Constructor metodu: __init__()
+* Encapsulation yani kapsülleme
+* Inheritance yani kalıtım
+* Polymorphism yani çok biçimlilik
+* En az bir abstract class veya temel sınıf
+* Liste, sözlük veya tuple kullanımı
+* Dosya işlemleri
+* JSON, TXT veya CSV dosyasına veri kaydetme
+* Try-except ile hata yönetimi
+* Menü tabanlı terminal uygulaması
+* Fonksiyonlara bölünmüş temiz kod yapısı
+* Açıklama satırları
+* README.md dosyası
+3. Beklenen Terminal Menüleri (Programı çalıştırınca kullanıcıyı karşılayacak menü)
+Aşağıdaki menüler örnek olarak verilmiştir. Sizler kendi projelerinize göre bu menüleri geliştirebilir veya değiştirebilirsiniz.
+8. Kripto Para Portföy ve İşlem Takip Sistemi
+Beklenen sınıflar:
+* Kullanıcı
+* Coin
+* Portföy
+* İşlem
+* KriptoSistemi
+Örnek terminal menüsü:
+KRİPTO PARA PORTFÖY SİSTEMİ
+1- Kullanıcı ekle/sil
+2- Coin ekle/sil
+3- Coinleri listele
+4- Alım işlemi yap
+5- Satım işlemi yap
+6- Portföy görüntüle
+7- Kar-zarar hesapla
+8- İşlem geçmişini görüntüle
+9- Verileri kaydet
+10- Verileri yükle
+0- Çıkış
+Kullanılması beklenen yapılar:
+* Coin miktarı takibi
+* Alış ve satış fiyatı kaydı
+* Kar-zarar hesabı
+* Portföy toplam değeri
+* İşlem geçmişi
+
+4. GitHub Kullanımı ve Teslim Şartları
+Her öğrenci projesini GitHub hesabına yükleyecektir.
+GitHub İçin Yapılması Gerekenler
+1. GitHub hesabı oluşturulmalıdır.
+2. Yeni bir repository açılmalıdır.
+3. Repository adı proje adıyla uyumlu olmalıdır.
+Örnek repository adları:
+hastane-randevu-sistemi
+mini-sosyal-medya-sistemi
+banka-yonetim-sistemi
+kutuphane-otomasyon-sistemi
+Repository İçeriğinde Bulunması Gerekenler
+En az şu dosyalar bulunmalıdır:
+* main.ipynb
+* README.md
+* Veri kaydı varsa data.json, data.txt veya data.csv
+5. README.md Dosyasında Bulunması Gerekenler
+Öğrenciler README.md dosyasına şu başlıkları eklemelidir:
+# Proje Adı
+
+
+## Proje Amacı
+Bu projenin amacı ...
+
+
+## Kullanılan Teknolojiler
+- Python
+- JSON / TXT / CSV
+- OOP
+
+
+## Kullanılan OOP Yapıları
+- Class
+- Object
+- Inheritance
+- Encapsulation
+- Polymorphism
+- Abstraction
+## Proje Özellikleri
+- Kullanıcı ekleme
+- Listeleme
+- Arama
+- Dosyaya kayıt
+- Dosyadan veri yükleme
+
+
+## Kurulum
+Projeyi çalıştırmak için:
+
+
+python main.py
+
+
+## Ekran Görüntüleri
+Varsa ekran görüntüleri buraya eklenebilir.
+
+
+## Geliştiren
+Ad Soyad:
+Öğrenci No:
+Ders:
+
+
+6. Sunumda Anlatılması Gerekenler
+Her öğrenci veya grup, projesini sınıfta kısa bir sunumla tanıtacaktır.
+Sunum İçeriği
+Sunumda şu başlıklar bulunmalıdır:
+1. Proje adı
+2. Projenin amacı
+3. Hangi problemi çözdüğü
+4. Kullanılan sınıflar
+5. Kullanılan OOP yapıları
+6. Menü ekranı tanıtımı
+7. Örnek kullanım senaryosu
+8. Dosya kayıt sistemi
+9. GitHub repository tanıtımı
+10. Projede karşılaşılan zorluklar
+11. Sonuç ve değerlendirme
+Sunum Süresi
+Her sunum yaklaşık 10-15 dakika olmalıdır.
+7. Sunum Değerlendirme Ölçütleri
+Ölçüt
+	Puan
+	Projenin çalışır durumda olması
+	25
+	OOP yapılarının doğru kullanılması
+	25
+	Menü sisteminin düzenli olması
+	10
+	Dosya kayıt/yükleme işlemleri
+	10
+	Hata yönetimi
+	10
+	Kod düzeni ve açıklama satırları
+	10
+	GitHub yükleme ve README dosyası
+	10
+	Toplam
+	100
+	8. Önemli Kurallar
+* Proje arayüzsüz olacaktır (Colab→Menü şeklinde).
+* Tkinter, Flask, Django veya web arayüzü zorunlu değildir.
+* Kod tamamen Python ile yazılacaktır.
+* Projede nesne yönelimli programlama mantığı açıkça görülmelidir.
+* Kod internetten doğrudan kopyalanmamalıdır.
+* Öğrenci yazdığı kodu sunumda açıklayabilmelidir. *******.
+* GitHub linki teslim edilmelidir (sunum sonunda açılıp gösterilecek).
+* README.md dosyası olmayan projeler eksik kabul edilir.
+9. Beklenen Genel Program Akışı
+Her projede genel olarak şu yapı beklenmektedir:
+1- Veri ekleme
+2- Veri listeleme
+3- Veri arama
+4- Veri güncelleme
+5- Veri silme
+6- İşlem yapma
+7- Raporlama
+8- Dosyaya kaydetme
+9- Dosyadan yükleme
+0- Çıkış
+Bu yapı her projeye göre uyarlanabilir.
+10. Sonuç
+Bu proje çalışması ile öğrencilerin Python programlama dilinde temel ve orta düzey konuları pekiştirmesi, nesne yönelimli programlama yaklaşımını gerçek bir senaryo üzerinde uygulaması ve GitHub kullanarak yazılım geliştirme sürecini deneyimlemesi amaçlanmaktadır. 
+Proje sonunda öğrenciler hem çalışan bir Python uygulaması geliştirmiş olacak hem de bu projeyi kişisel yazılım portföylerine (Github) ekleyebilecektir.

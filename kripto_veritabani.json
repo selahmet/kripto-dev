@@ -1,0 +1,44 @@
+{
+    "aktif_kullanici": "ahmetsel",
+    "piyasa_coinleri": {
+        "ADFAD": {
+            "fiyat": "323",
+            "aciklama": ""
+        },
+        "ADF": {
+            "fiyat": "342",
+            "aciklama": ""
+        }
+    },
+    "kullanicilar": {
+        "ahmetsel": {
+            "kullanici_adi": "ahmetsel",
+            "eposta": "sel@x.com",
+            "portfoy": {
+                "varliklar": [
+                    {
+                        "sembol": "ADF",
+                        "miktar": "2",
+                        "ortalama_maliyet": "342"
+                    }
+                ],
+                "islemler": [
+                    {
+                        "sembol": "ADF",
+                        "miktar": "4",
+                        "fiyat": "342",
+                        "islem_tipi": "ALIM",
+                        "tarih": "2026-05-13 09:09:51"
+                    },
+                    {
+                        "sembol": "ADF",
+                        "miktar": "2",
+                        "fiyat": "342",
+                        "islem_tipi": "SATIM",
+                        "tarih": "2026-05-13 09:10:06"
+                    }
+                ]
+            }
+        }
+    }
+}
