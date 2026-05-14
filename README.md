@@ -48,11 +48,31 @@ Bu projenin amacı, kripto para yatırımcılarının portföylerini yönetmeler
 
 ## Kurulum
 
-Projeyi çalıştırmak için:
+Projeyi çalıştırmak için gerekli dosyalar:
+
+- main.py (Tkinter GUI)
+- app.html (Web arayüzü)
+- app.jsx (React bileşenleri)
+- Diğer dosyalar (kripto_veritabani.json, vb.)
+
+### Tkinter Masaüstü Arayüzü (Python):
 
 ```bash
 python main.py
 ```
+
+Tkinter penceresi açılacak ve tüm menü işlemleri (1-10) çalışacaktır.
+
+### Web Arayüzü (Tarayıcı):
+
+```bash
+cd klasor_yolu
+python -m http.server 8000
+```
+
+Sonra tarayıcıda: http://localhost:8000/app.html açın.
+
+Alternatif olarak, app.html dosyasını direkt çift tıklayarak tarayıcıda açabilirsiniz (app.jsx dosyasının aynı klasörde kalması gerekir).
 
 ## Ekran Görüntüleri
 
@@ -72,11 +92,21 @@ Menü örneği:
 0. Çıkış
 ```
 
-## Geliştiren
+## Sunum İçin
 
-**Ad Soyad**: (Öğrenci Adı)
-**Öğrenci No**: (Öğrenci Numarası)
-**Ders**: Programlama 2
+### Terminal Menüsü Demo:
+```bash
+python main.py
+```
+Tkinter arayüzünü gösterin ve menü işlemlerini tanıtın.
+
+### Modern Web Gösterimi:
+app.html dosyasını açın ve portföy, piyasa verileri, işlem kayıtlarını dolaştırın.
+
+### GitHub Gösterimi:
+Repoyu açıp main.py, app.html, app.jsx dosyalarının orada olduğunu gösterin.
+
+Her iki arayüz de aynı veri yapısını kullanıyor (WAC, PnL, JSON kayıt/yükleme). Python'da analitik işlemler, web'de görsel sunum için tasarlandı.
 
 ## GitHub
 
